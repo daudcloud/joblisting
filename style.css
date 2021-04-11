@@ -241,6 +241,7 @@ main {
 
   .job .job-info {
     margin-left: 0;
+    width: 100%;
   }
 
   .job .job-info > *:not(:last-child) {
@@ -253,6 +254,14 @@ main {
 
   .job-info .info-foot {
     font-size: 0.8rem;
+  }
+
+  .info-foot span {
+    margin: 0;
+  }
+
+  .dot {
+    margin: 0 0.4rem;
   }
 
   .hr {
